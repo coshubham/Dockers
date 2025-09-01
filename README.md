@@ -15,7 +15,7 @@ docker run -it --init -p 3002:3000 -v "$(pwd)":/developer/nodejs/node-bind-mount
 docker run -it --init -p 3002:3000 -v ${PWD}:/developer/nodejs/node-bind-mount-project app-bind-mount-node:latest <br>
 
 ✅ Linux / macOS (bash, zsh, sh) <br>
-docker run -it --init -p 3002:3000 -v "$(pwd)":/developer/nodejs/node-bind-mount-project app-bind-mount-node:latest
+docker run -it --init -p 3002:3000 -v "$(pwd)":/developer/nodejs/node-bind-mount-project app-bind-mount-node:latest <br>
 $(pwd) expands to your current working directory.
 
 * 👉 Windows CMD <br>
